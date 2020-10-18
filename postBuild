@@ -1,0 +1,13 @@
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
+jupyter nbextension enable limit_output/main
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable hinterland/hinterland
+jupyter nbextension enable ruler/main
+jupyter nbextension enable autosavetime/main
+jupyter nbextension enable notify/notify
+jupyter nbextension enable spellchecker/main
+jupyter nbextension enable code_prettify/code_prettify
+jupyter nbextension enable execute_time/ExecuteTime
+jupyter nbextension enable toggle_all_line_numbers/main
